@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="src/style/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+    <main class="kanban">
+
+        <div class="kanban-column">
+
+            <div class="kanban-tittle">
+                <h2>Pendente</h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card" draggable="true">
+                    <div class="badge-high">
+                        <span>Alta Prioridade</span>
+                    </div>
+                    <p class="card-tittle">
+                        Revisar projeto
+                    </p>
+                    <div class="card-infos">
+                        <p class="card-icons">
+                            <i class="fa-regular fa-comment" aria-hidden="true"></i>
+                            1
+                        </p>
+                        <p class="card-icons">
+                            <i class="fa-solid fa-paperclip" aria-hidden="true"></i>
+                            1
+                        </p>
+                    </div>
+
+                    <div class="card-user">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kanban-column">
+
+            <div class="kanban-tittle">
+                <h2>Em andamento</h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="kanban-cards">
+
+                <div class="kanban-card" draggable="true">
+
+                    <div class="badge-medium">
+
+                        <span>Média Prioridade</span>
+
+                    </div>
+
+                    <p class="card-tittle">
+                        Adicionar função dos botões
+                    </p>
+
+                    <div class="card-infos">
+
+                        <p class="card-icons">
+                            <i class="fa-regular fa-comment" aria-hidden="true"></i>
+                            1
+                        </p class="card-icons">
+
+                        <p>
+                            <i class="fa-solid fa-paperclip" aria-hidden="true"></i>
+                            1
+                        </p>
+
+                    </div>
+
+                    <div class="card-user">
+
+                        <i class="fa-regular fa-user"></i>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="kanban-column">
+
+            <div class="kanban-tittle">
+
+                <h2>Em Teste</h2>
+
+                <button class="add-card">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </button>
+
+            </div>
+
+            <div class="kanban-cards">
+
+                <div class="kanban-card" draggable="true">
+
+                    <div class="badge-lower">
+
+                        <span>Baixa Prioridade</span>
+
+                    </div>
+
+                    <p class="card-tittle">
+                        Criar modo noturno
+                    </p>
+
+                    <div class="card-infos">
+
+                        <p class="card-icons">
+                            <i class="fa-regular fa-comment" aria-hidden="true"></i>
+                            1
+                        </p class="card-icons">
+
+                        <p>
+                            <i class="fa-solid fa-paperclip" aria-hidden="true"></i>
+                            1
+                        </p>
+
+                    </div>
+
+                    <div class="card-user">
+
+                        <i class="fa-regular fa-user"></i>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="kanban-column">
+
+            <div class="kanban-tittle">
+
+                <h2>Finalizado</h2>
+
+                <button class="add-card">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </button>
+
+            </div>
+
+            <div class="kanban-cards">
+
+                <div class="kanban-card" draggable="true">
+
+                    <div class="badge-high">
+
+                        <span>Alta Prioridade</span>
+
+                    </div>
+
+                    <p class="card-tittle">
+                        Adicionar Backend
+                    </p>
+
+                    <div class="card-infos">
+
+                        <p class="card-icons">
+                            <i class="fa-regular fa-comment" aria-hidden="true"></i>
+                            1
+                        </p>
+
+                        <p class="card-icons">
+                            <i class="fa-solid fa-paperclip" aria-hidden="true"></i>
+                            1
+                        </p>
+
+                    </div>
+
+                    <div class="card-user">
+
+                        <i class="fa-regular fa-user"></i>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="src/script/script.js"></script>
+
+</body>
+
+</html>
